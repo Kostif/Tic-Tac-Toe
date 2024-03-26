@@ -2,6 +2,6 @@ FROM python:3
 
 LABEL kostif dantestcr@gmail.com
 
-ADD Tictactoe.py .
+COPY Tictactoe.py .
  
 CMD ["python", "./Tictactoe.py"]
