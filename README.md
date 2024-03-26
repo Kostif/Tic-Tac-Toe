@@ -1,2 +1,2 @@
 # Create docker image
-## > $ make build
+> $ make build
