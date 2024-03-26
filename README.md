@@ -1,5 +1,5 @@
 ### Create docker image with
 > make build
 
-### Run TicTacToe.py with
+### Run Tictactoe.py with
 > make run ttt
