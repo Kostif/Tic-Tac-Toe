@@ -1,7 +1,7 @@
-FROM python:3
+FROM python:alpine
 
 LABEL kostif dantestcr@gmail.com
 
-COPY Tictactoe.py .
+COPY *.py .
  
-CMD ["python", "./Tictactoe.py"]
+CMD ["python3", "Tictactoe.py"]
